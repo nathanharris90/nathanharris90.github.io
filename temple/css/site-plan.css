@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+    --primary-color: #396E94;
+    --secondary-color: #E7C24F;
+    --accent1-color: #A43312;
+    --accent2-color: white;
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: Lato, Helvetica, sans-serif;
+}
+
+html {
+    background-color: #819595;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#000000;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: #B1B6A6;
+    background-color:
+}
+
+header>h1 {
+    color: #696773;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color: #363946 ;
+    padding: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #819595;
+}
+.secondary {
+    background-color: #B1B6A6;
+}
+
+.accent1 {
+    background-color: #363946;
+}
+
+.accent2 {
+    background-color: #696773;
+}
+
+nav {
+    background-color: #B1B6A6;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    padding: 1em;
+    min-width: 70px;
+}
+
+nav a:link,
+nav a:visited {
+    color: #363946;
+}
+
+nav a:hover {
+    color: #696773;
+    background-color:#B1B6A6;
+}
